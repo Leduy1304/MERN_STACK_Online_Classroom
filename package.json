@@ -1,0 +1,21 @@
+{
+  "name": "online-classroom-mern",
+  "version": "1.0.0",
+  "description": "Đề tài Tiểu luận Cuối kỳ: Xây dựng Hệ thống Lớp học Trực tuyến (Online Classroom) - MERN Stack",
+  "scripts": {
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "classroom",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs"
+  ],
+  "author": "Sinh viên",
+  "license": "ISC"
+}
