@@ -39,7 +39,13 @@ Hệ thống đã được tích hợp sẵn bộ dữ liệu mẫu thực tế 
 ### Bước 1: Khởi động MongoDB
 Đảm bảo MongoDB Server đang chạy trên máy tính (`mongodb://127.0.0.1:27017`).
 
-### Bước 2: Khởi tạo dữ liệu mẫu (Seeder)
+### Bước 2: Cài đặt dependencies
+Tại thư mục gốc của dự án, mở Terminal và chạy lệnh:
+
+npm install
+
+
+### Bước 3: Khởi tạo dữ liệu mẫu (Seeder)
 Tại thư mục gốc `ReactProjects`, mở Terminal và chạy lệnh:
 ```bash
 npm run seed
@@ -47,7 +53,7 @@ npm run seed
 ```
 Lệnh trên sẽ tự động tạo sẵn các tài khoản mẫu, danh mục, khóa học, bài học video/pdf, bài tập và bài nộp đã chấm điểm.
 
-### Bước 3: Khởi chạy Backend và Frontend
+### Bước 4: Khởi chạy Backend và Frontend
 
 **Khởi chạy Backend (Port 5000):**
 ```bash
