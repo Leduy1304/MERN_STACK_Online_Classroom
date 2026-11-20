@@ -1,11 +1,11 @@
-# 🎓 HỆ THỐNG LỚP HỌC TRỰC TUYẾN (ONLINE CLASSROOM)
+# HỆ THỐNG LỚP HỌC TRỰC TUYẾN (ONLINE CLASSROOM)
 > **BÁO CÁO TIỂU LUẬN CUỐI KỲ - MÔN LẬP TRÌNH WEB (MERN STACK)**  
 > **Chủ đề:** Xây dựng Hệ thống Lớp học Trực tuyến (Online Classroom)  
 > **Công nghệ:** MongoDB, Express.js, React.js, Node.js
 
 ---
 
-## 📌 1. TỔNG QUAN HỆ THỐNG & ĐẶC TÍNH NỔI BẬT
+## 1. TỔNG QUAN HỆ THỐNG & ĐẶC TÍNH NỔI BẬT
 
 Hệ thống **Online Classroom (EduLearn)** là một nền tảng học tập trực tuyến toàn diện, kết nối Giảng viên và Sinh viên với sự quản trị tập trung của Admin:
 - **Xác thực & Phân quyền bảo mật:** Sử dụng **JSON Web Token (JWT)**, mã hóa mật khẩu một chiều với **bcryptjs**, phân chia nghiêm ngặt 3 vai trò: `Admin`, `Teacher`, `Student`.
@@ -17,7 +17,7 @@ Hệ thống **Online Classroom (EduLearn)** là một nền tảng học tập 
 
 ---
 
-## 👥 2. TÀI KHOẢN TRẢI NGHIỆM HỆ THỐNG (TEST ACCOUNTS)
+## 2. TÀI KHOẢN TRẢI NGHIỆM HỆ THỐNG (TEST ACCOUNTS)
 
 Hệ thống đã được tích hợp sẵn bộ dữ liệu mẫu thực tế thông qua Database Seeder:
 
@@ -30,11 +30,11 @@ Hệ thống đã được tích hợp sẵn bộ dữ liệu mẫu thực tế 
 | **Sinh viên (Student 2)** | `student2@classroom.edu.vn` | `password123` | Nguyễn Thu Hà - Sinh viên ngành Lập trình Web. |
 | **Tài khoản bị khóa** | `blocked@classroom.edu.vn` | `password123` | Tài khoản đã bị Admin khóa để kiểm thử tính năng bảo mật ngăn chặn truy cập. |
 
-> 💡 **Mẹo:** Trên thanh điều hướng (Navbar) có nút **"Demo Role"**, bạn chỉ cần bấm vào và chọn vai trò mong muốn để hệ thống tự động đăng nhập ngay lập tức!
+> **Mẹo:** Trên thanh điều hướng (Navbar) có nút **"Demo Role"**, bạn chỉ cần bấm vào và chọn vai trò mong muốn để hệ thống tự động đăng nhập ngay lập tức!
 
 ---
 
-## 🚀 3. HƯỚNG DẪN KHỞI CHẠY DỰ ÁN
+## 3. HƯỚNG DẪN KHỞI CHẠY DỰ ÁN
 
 ### Bước 1: Khởi động MongoDB
 Đảm bảo MongoDB Server đang chạy trên máy tính (`mongodb://127.0.0.1:27017`).
@@ -72,7 +72,7 @@ Frontend sẽ chạy tại: `http://localhost:5173`
 
 ---
 
-## 🏗️ 4. KIẾN TRÚC MÃ NGUỒN (MERN STACK)
+## 4. KIẾN TRÚC MÃ NGUỒN (MERN STACK)
 
 ```
 ReactProjects/
@@ -150,7 +150,7 @@ ReactProjects/
 
 ---
 
-## 📡 5. DANH SÁCH RESTFUL API ENDPOINTS
+## 5. DANH SÁCH RESTFUL API ENDPOINTS
 
 ### 1. Xác thực & Hồ sơ cá nhân (`/api/auth`)
 - `POST /api/auth/register` - Đăng ký tài khoản mới (Student / Teacher).
@@ -203,7 +203,7 @@ ReactProjects/
 
 ---
 
-## 🎯 6. ĐÁP ỨNG ĐẦY ĐỦ TIÊU CHÍ ĐỀ BÀI
+## 6. ĐÁP ỨNG ĐẦY ĐỦ TIÊU CHÍ ĐỀ BÀI
 
 1. **Chủ đề Hệ thống Lớp học Trực tuyến:** Đã triển khai hoàn chỉnh luồng nghiệp vụ tạo lớp, phân phối tài liệu, ghi danh học tập, nộp bài và chấm điểm.
 2. **Công nghệ bắt buộc MERN:**
